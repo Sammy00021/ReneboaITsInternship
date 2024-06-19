@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background: #323437;
@@ -16,7 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: safe;
-    padding: 20px 150px;
+    padding: 10px 100px;
     color: #d1d0c5;
     font-size: 2rem;
 }
@@ -33,8 +37,47 @@ div span{
     color: #e2b714;
 }
 #body{
-    padding: 20px 150px;
+    padding: 10px 100px;
     font-size: 1rem;
     line-height: 1.7;
 
+}
+.intro{
+    display: inline;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Roboto Mono", "Vazirmatn", monospace;
+}
+a{
+    display: inline-block;
+    color: #646669;
+    text-decoration: underline;
+    transition: color .125s, opacity .125s, background .125s;
+}
+a{
+    background-color: transparent;
+}
+a:hover{
+    color: #fff;
+}
+ul{
+    padding: 2px 40px;
+}
+#Data-collection{
+    display: inline;
+}
+h1{
+    color: #e2b714;
+    font-weight: 200;
+}
+li{
+    color: #d1d0c5;
+    font-family: "Roboto Mono", "Vazirmatn", monospace;
 }
