@@ -7,6 +7,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Acknowledgement](#Acknowledgement)
 
 ## Overview
 
@@ -35,3 +36,6 @@ Users should be able to:
 - HTML 5
 - CSS custom properties
 - JavaScript
+
+### Acknowledgement
+- Simon D. Gray - Frontend developer
